@@ -16,7 +16,7 @@ handler
 page
 keywords that cannot be used in route*/
 
-    [Route("Teacher/{action=index}")]
+    /*[Route("Teacher/{action=index}")]*/
     public class StudentController : Controller
     {
         private readonly IStudentServices _services;
@@ -35,6 +35,11 @@ keywords that cannot be used in route*/
         public IActionResult Add()
         {
             return View();
+        }
+        public IActionResult SingleStudent()
+        {
+            var model = _services.GetSingleStudent(5);
+            return View(model);
         }
     }
 }

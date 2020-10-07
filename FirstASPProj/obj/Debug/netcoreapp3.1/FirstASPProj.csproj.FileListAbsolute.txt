@@ -112,3 +112,4 @@ D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft
 D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\FirstASPProj.csproj.CoreCompileInputs.cache
 D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\FirstASPProj.MvcApplicationPartsAssemblyInfo.cache
 D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\Razor\Views\Student\Add.cshtml.g.cs
+D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\Razor\Views\Student\SingleStudent.cshtml.g.cs

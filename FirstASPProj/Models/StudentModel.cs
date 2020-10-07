@@ -8,6 +8,8 @@ namespace FirstASPProj.Models
 {
     public class StudentModel
     {
+        [Display(Name ="ID")]
+        public int id;
         [Required(ErrorMessage ="Please enter full name")]
         [Display(Name = "Full Name")]
         public string name { get; set; }

@@ -9,5 +9,6 @@ namespace FirstASPProj.Services
     public interface IStudentServices
     {
         List<StudentModel> GetAllStudent();
+        StudentModel GetSingleStudent(int id);
     }
 }
