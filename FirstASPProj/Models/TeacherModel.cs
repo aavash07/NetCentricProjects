@@ -7,6 +7,7 @@ namespace FirstASPProj.Models
 {
     public class TeacherModel
     {
+        public int id;
         public string name { set; get; }
         public string subject { set; get; }
     }

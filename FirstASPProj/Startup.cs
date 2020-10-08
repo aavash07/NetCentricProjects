@@ -25,6 +25,7 @@ namespace FirstASPProj
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IStudentServices, StudentServices>();
+            services.AddScoped<ITeacherServices, TeacherServices>();
             services.AddControllersWithViews();
         }
 

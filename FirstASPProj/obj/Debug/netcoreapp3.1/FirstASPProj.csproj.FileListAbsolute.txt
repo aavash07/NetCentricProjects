@@ -113,3 +113,4 @@ D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\FirstASPProj.cspr
 D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\FirstASPProj.MvcApplicationPartsAssemblyInfo.cache
 D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\Razor\Views\Student\Add.cshtml.g.cs
 D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\Razor\Views\Student\SingleStudent.cshtml.g.cs
+D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\Razor\Views\Teacher\GetTeacherById.cshtml.g.cs

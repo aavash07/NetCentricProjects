@@ -3,29 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FirstASPProj.Models;
+using FirstASPProj.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FirstASPProj.Controllers
 {
     public class TeacherController : Controller
     {
+        private readonly ITeacherServices _services;
+        public TeacherController(ITeacherServices services)
+        {
+            _services = services;
+        }
         public IActionResult Index()
         {
-            var model = GetTeacherModelsDB();
+            var model = _services.GetTeacherModelsDB();
             return View(model);
         }
-        private List<TeacherModel> GetTeacherModelsDB()
-        {
-            List<TeacherModel> teachers = new List<TeacherModel>();
-            teachers.Add(new TeacherModel { name = "Ram", subject = "math" });
-            teachers.Add(new TeacherModel { name = "Hari", subject = "science" });
-            teachers.Add(new TeacherModel { name = "shyam", subject = "nepali" });
-            return teachers;
-        }
+        
         [HttpGet]
         public IActionResult Add()
         {
             return View();
+        }
+        [HttpGet]
+        public IActionResult GetTeacherById(int id)
+        {
+            var model = _services.GetTeacherById(id);
+            return View(model);
         }
     }
 }
