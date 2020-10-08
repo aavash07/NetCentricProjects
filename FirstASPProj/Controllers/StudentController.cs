@@ -36,9 +36,9 @@ keywords that cannot be used in route*/
         {
             return View();
         }
-        public IActionResult SingleStudent()
+        public IActionResult SingleStudent(int id)
         {
-            var model = _services.GetSingleStudent(5);
+            var model = _services.GetSingleStudent(id);
             return View(model);
         }
     }

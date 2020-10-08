@@ -19,12 +19,16 @@ namespace FirstASPProj.Services
         }
         public StudentModel GetSingleStudent(int id)
         {
-            List<StudentModel> students = new List<StudentModel>();
+
+            return new StudentModel { id = id, name = "Aavash", address = "satdobato" };
+
+            /*List<StudentModel> students = new List<StudentModel>();
             students.Add(new StudentModel { id = 0, name = "Aavash", address = "satdobato" });
             students.Add(new StudentModel { id = 1, name = "Sabin", address = "Bhaktapur" });
-            students.Add(new StudentModel { id = 2, name = "Bibke", address = "Jadibuti" });
+            students.Add(new StudentModel { id = 2, name = "Bibke", address = "Jadibuti" });*/
 
-            int exist = findIndex(students,id);
+
+            /*int exist = findIndex(students,id);
 
             if (exist >= 0)
             {
@@ -33,7 +37,7 @@ namespace FirstASPProj.Services
             else
             {
                 return null;
-            }
+            }*/
         }
         private int findIndex(List<StudentModel> students,int id)
         {
