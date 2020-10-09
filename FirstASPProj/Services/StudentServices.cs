@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FirstASPProj.Services
 {
-    public class StudentServices:IStudentServices
+    public class StudentServices : IStudentServices
     {
         public List<StudentModel> GetAllStudent()
         {
@@ -39,7 +39,7 @@ namespace FirstASPProj.Services
                 return null;
             }*/
         }
-        private int findIndex(List<StudentModel> students,int id)
+        /*private int findIndex(List<StudentModel> students,int id)
         {
             for(int i = 0; i < students.Count; i++)
             {
@@ -49,6 +49,16 @@ namespace FirstASPProj.Services
                 }
             }
             return -1;
+        }*/
+
+        public async Task<int> SendEmail(List<StudentModel> model)
+        {
+            await Task.Delay(5000);
+            foreach (var std in model)
+            {
+                Console.WriteLine($"Email sent to {std.name}");
+            }
+            return 1;
         }
     }
 }

@@ -10,5 +10,6 @@ namespace FirstASPProj.Services
     {
         List<StudentModel> GetAllStudent();
         StudentModel GetSingleStudent(int id);
+        Task<int> SendEmail(List<StudentModel> model);
     }
 }

@@ -25,9 +25,17 @@ keywords that cannot be used in route*/
             _services = service;
         }
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             var model = _services.GetAllStudent();
+            var emailTask = _services.SendEmail(model);
+
+            Console.WriteLine("Send email task started");
+            Console.WriteLine("Sending email....");
+
+            var result = await emailTask;
+            Console.WriteLine("Email sending task completed");
+
             return View(model);
         }
 
