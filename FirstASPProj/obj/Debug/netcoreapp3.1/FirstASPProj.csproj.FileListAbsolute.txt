@@ -109,8 +109,14 @@ D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\ru\Microsoft.Code
 D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\FirstASPProj.csproj.CoreCompileInputs.cache
-D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\FirstASPProj.MvcApplicationPartsAssemblyInfo.cache
 D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\Razor\Views\Student\Add.cshtml.g.cs
 D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\Razor\Views\Student\SingleStudent.cshtml.g.cs
 D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\Razor\Views\Teacher\GetTeacherById.cshtml.g.cs
+D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\VisulStudio\NetCentric\FirstASPProj\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\FirstASPProj.csproj.CoreCompileInputs.cache
+D:\VisulStudio\NetCentric\FirstASPProj\obj\Debug\netcoreapp3.1\FirstASPProj.MvcApplicationPartsAssemblyInfo.cache
